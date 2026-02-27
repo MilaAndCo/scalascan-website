@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scala — LiDAR Room Scanning for Professionals</title>
+  <meta name="description" content="Scan any room in seconds with iPhone LiDAR. Generate professional floor plans, measurements, and reports for insurance adjusters and contractors.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2308B0C9'/><text x='16' y='23' text-anchor='middle' fill='white' font-size='20' font-weight='bold' font-family='system-ui'>S</text></svg>">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" id="header">
+    <div class="header-inner">
+      <a href="/" class="header-logo-text">Sc<span>a</span>la</a>
+      <nav id="nav">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#use-cases">Use Cases</a>
+        <a href="support.html">Support</a>
+        <a href="#download" class="nav-cta">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M12 4v12m0 0l-4-4m4 4l4-4"/></svg>
+          Download
+        </a>
+      </nav>
+      <button class="menu-toggle" onclick="document.getElementById('nav').classList.toggle('open')" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        Powered by iPhone LiDAR
+      </div>
+      <h1>Scan any room.<br>Get <em>professional</em><br>measurements instantly.</h1>
+      <p>Scala uses your iPhone's LiDAR scanner to capture room dimensions and generate detailed floor plans, measurement reports, and export-ready data in seconds.</p>
+      <div class="hero-actions">
+        <a href="#download" class="btn-primary">
+          <svg fill="currentColor" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+          Download on the App Store
+        </a>
+        <a href="#features" class="btn-secondary">
+          Learn More
+          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HERO VISUAL ========== -->
+  <div class="hero-visual">
+    <div class="hero-mockup">
+      <div class="mockup-content">
+        <p>App screenshots coming soon</p>
+      </div>
+      <!-- Replace with real screenshots:
+      <div class="mockup-grid">
+        <img src="assets/screenshot-1.png" alt="Scala scanning interface">
+        <img src="assets/screenshot-2.png" alt="Scala floor plan">
+        <img src="assets/screenshot-3.png" alt="Scala measurement report">
+      </div>
+      -->
+    </div>
+  </div>
+
+  <!-- ========== FEATURES ========== -->
+  <section class="features" id="features">
+    <div class="features-header">
+      <div class="section-label">Features</div>
+      <h2 class="section-title">Everything you need<br>in one scan.</h2>
+      <p class="section-subtitle">Professional-grade room documentation that used to take hours, now takes seconds.</p>
+    </div>
+    <div class="features-grid">
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" d="M9 22V12h6v10"/></svg>
+        </div>
+        <h3>LiDAR Room Scanning</h3>
+        <p>Walk through any room and Scala captures walls, doors, windows, and fixtures automatically using Apple's RoomPlan framework.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7"/></svg>
+        </div>
+        <h3>2D Floor Plans</h3>
+        <p>Instantly generate clean, professional floor plans with accurate wall measurements, door swings, window placements, and fixture layouts.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7"/></svg>
+        </div>
+        <h3>Detailed Measurements</h3>
+        <p>Wall lengths, floor area, ceiling height, perimeter, wall surface area, and volume — all calculated automatically from a single scan.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
+        </div>
+        <h3>Multi-Format Export</h3>
+        <p>Export as PNG, JPG, or PDF floor plans. Generate full measurement reports or CSV data compatible with industry tools like Xactimate.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><circle cx="12" cy="13" r="3"/></svg>
+        </div>
+        <h3>Photo Documentation</h3>
+        <p>Capture and attach photos to each room scan. Document conditions, damage, or details alongside your measurements.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/></svg>
+        </div>
+        <h3>Interactive Editor</h3>
+        <p>Fine-tune your scans with an intuitive blueprint editor. Adjust fixtures, toggle measurements, and customize your floor plan view.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== HOW IT WORKS ========== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="how-inner">
+      <div class="how-header">
+        <div class="section-label">How It Works</div>
+        <h2 class="section-title">Three steps. That's it.</h2>
+        <p class="section-subtitle">No training required. If you can walk through a room, you can use Scala.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <h3>Scan the Room</h3>
+          <p>Open Scala, tap scan, and slowly walk around the room. LiDAR captures every wall, door, window, and fixture in real time.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <h3>Review & Edit</h3>
+          <p>See your floor plan instantly. Use the built-in editor to fine-tune details, add photos, and verify measurements before export.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <h3>Export & Share</h3>
+          <p>Generate professional PDFs, images, or CSV data. Share directly with clients, upload to your claims system, or save for your records.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== USE CASES ========== -->
+  <section class="use-cases" id="use-cases">
+    <div class="use-cases-header">
+      <div class="section-label">Built For</div>
+      <h2 class="section-title">The people who measure<br>rooms for a living.</h2>
+      <p class="section-subtitle">Scala is purpose-built for the professionals who need accurate room data fast.</p>
+    </div>
+    <div class="use-cases-grid">
+      <div class="use-case">
+        <div class="use-case-icon">🏗️</div>
+        <h3>Contractors & Builders</h3>
+        <p>Get accurate room dimensions for estimates, material takeoffs, and project planning without pulling out a tape measure. Export measurement data directly to your workflow.</p>
+      </div>
+      <div class="use-case">
+        <div class="use-case-icon">📋</div>
+        <h3>Insurance Adjusters</h3>
+        <p>Document rooms quickly during property inspections. Generate professional reports with floor plans and measurements compatible with Xactimate and other claims software.</p>
+      </div>
+      <div class="use-case">
+        <div class="use-case-icon">🎨</div>
+        <h3>Interior Designers</h3>
+        <p>Capture existing room layouts instantly. Use accurate floor plans as the starting point for design concepts and furniture placement.</p>
+      </div>
+      <div class="use-case">
+        <div class="use-case-icon">🏠</div>
+        <h3>Property Managers</h3>
+        <p>Maintain accurate records of every unit. Document room conditions, track dimensions, and streamline turnover inspections with scan-based reports.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="cta-section" id="download">
+    <div class="cta-box">
+      <h2>Ready to ditch the tape measure?</h2>
+      <p>Download Scala and scan your first room in under a minute.</p>
+      <a href="#" class="btn-primary">
+        <svg fill="currentColor" viewBox="0 0 24 24" width="20" height="20"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        Download on the App Store
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <div class="footer-logo">Sc<span>a</span>la</div>
+        <span class="footer-copy">&copy; 2026 Mila & Co LLC. All rights reserved.</span>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="support.html">Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Header scroll effect
+    window.addEventListener('scroll', () => {
+      document.getElementById('header').classList.toggle('scrolled', window.scrollY > 20);
+    });
+  </script>
+
+</body>
+</html>
